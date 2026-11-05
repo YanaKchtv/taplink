@@ -1,0 +1,32 @@
+* {
+  box-sizing:border-box; /*чтобы отступы не увеличивали заданную ширину элемента */
+}
+
+body {
+  background-color: #f7f7f7; /*фоновый цвет*/
+  padding: 15px; /*отступ внутри элемента */
+  font-family: "Inter", sans-serif;
+}
+
+.page-wrapper {
+  max-width: 393px; /* максимальная ширина блока */
+  margin: auto; /*выравнивание блока по центру*/
+  background: #f7f7f7; /*фон блока */
+  box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25); /*тень вокруг блока*/
+  border-radius: 20px; /*скругление углов */
+}
+
+.header {
+  color: #fff; /*цвет текста */
+  padding: 40px 42px 145px;  /* настройки отступа внутри блока*/
+  background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url('../img/background.png') no-repeat center / cover ; /* фоновая картинка с затемнением */
+  border-radius: 10px 10px 45px 45px; /* скругление углов */
+}
+
+.hello {
+
+}
+
+.hello-text {
+  
+}
